@@ -6,7 +6,7 @@ import axios from 'axios';
 
 
 const App = () => {
-    const [advice,setAdvice] = useState("Hi");
+    const [advice,setAdvice] = useState("");
     console.log(advice);
 
     useEffect(()=>{
