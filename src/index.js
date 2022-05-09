@@ -8,7 +8,7 @@ class WebComponent extends HTMLElement {
   }
 }
 
-const ELEMENT_ID = "remote-age-app";
+const ELEMENT_ID = "remote-quote-app";
 
 if (!customElements.get(ELEMENT_ID)) {
   customElements.define(ELEMENT_ID, WebComponent);
